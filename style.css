@@ -1,0 +1,133 @@
+ul {
+  margin:  0px;
+  padding: 0px;
+  color: black;
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+
+}
+
+#header {
+  background-color: skyblue;
+
+}
+
+#footer {
+  background-color: black;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#nav-bar {
+  background-color: #158c9b;
+  display: flex;
+  justify-content: start:
+  border: 2px solid black;
+  align-items: baseline;
+}
+.nav-link {
+  color: black;
+}
+p {
+  text-align: center;
+}
+
+nav {
+  align-items: center;
+}
+#twitter{
+  color: white;
+  padding-right: 30px;
+}
+#linkedin {
+  color: white;
+  padding-right: 30px;
+}
+#gmail{
+  color:white;
+}
+#social{
+  background-color: black;
+}
+#socialmedia{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+a:hover {
+  background-color: gray;
+  font-size: 22px;
+  color: white;
+}
+li {
+  display: flex;
+  padding-right: 60px;
+  font-size: 20px;
+  color: black;
+
+}
+
+
+#title {
+  font-size: 50px;
+  padding-right: 450px;
+  
+}
+form {
+  text-align: center;
+
+}
+span {
+  color: white;
+}
+h3 {
+  text-align: center;
+  padding-top: 50px;
+}
+h2 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+input {
+  border-radius: 30px;
+  text-align: center;
+}
+#submit{
+  width: 180px;
+  border-radius: 30px;
+}
+#submit:hover {
+  background-color: darkgray;
+}
+#video1 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gold;
+  background-image: linear-gradient(skyblue, black);
+ padding-top: 50px;
+}
+@media (min-width: 600px){
+  p {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 1.9rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  
+}
+a:hover {
+  background-color: black;
+}
